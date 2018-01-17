@@ -2,7 +2,9 @@ import json
 from pprint import pprint
 import os
 
-download_path = "downloads/"
+target_program = "bash"
+
+download_path = "downloads/%s" % bash
 
 json_data=open("output.json").read()
 
