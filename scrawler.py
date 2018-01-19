@@ -23,7 +23,7 @@ class PackSpider(scrapy.Spider):
       ret['links'] =links 
       yield ret
     except Exception as e:
-      print e
+      print (e)
       pass
 
 

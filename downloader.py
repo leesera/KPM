@@ -4,7 +4,7 @@ import os
 
 target_program = "bash"
 
-download_path = "downloads/%s" % bash
+download_path = "downloads/%s" % target_program 
 
 json_data=open("output.json").read()
 
